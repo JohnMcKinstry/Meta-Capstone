@@ -1,11 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
+import Header from './components/Header';
+
 import './App.css';
+import Main from './components/Main';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      Homepage
-    </div>
+    <React.Fragment className="App">
+      <Header/>
+      <Main/>
+      <Footer/>
+    </React.Fragment>
   );
 }
 
